@@ -1,0 +1,138 @@
+.header {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.header .content-wrapper {
+  position: relative;
+  padding: 24px 12px 18px 24px;
+}
+
+.header .avatar {
+  display: inline-block;
+}
+
+.header .avatar img {
+  border-radius: 2px;
+}
+
+.header .content {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 16px;
+  line-height: 1;
+}
+
+.header .title {
+  margin: 2px 0 8px 0;
+}
+
+.header .brand {
+  display: inline-block;
+  vertical-align: top;
+  width: 30px;
+  height: 18px;
+  background-image: url('./brand@2x.png');
+  background-size: 30px 18px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .header .brand {
+    background-image: url('./brand@3x.png');
+  }
+}
+
+.header .name {
+  margin-left: 6px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.header .description {
+  font-size: 12px;
+}
+
+.header .support {
+  margin-top: 10px;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.header .support .icon {
+  display: inline-block;
+  vertical-align: top;
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+}
+
+.header .support .icon.decrease {
+  background-image: url('./decrease_1@2x.png');
+}
+
+.header .support .icon.discount {
+  background-image: url('./discount_1@2x.png');
+}
+
+.header .support .icon.guarantee {
+  background-image: url('./guarantee_1@2x.png');
+}
+
+.header .support .icon.invoice {
+  background-image: url('./invoice_1@2x.png');
+}
+
+.header .support .icon.special {
+  background-image: url('./special_1@2x.png');
+}
+
+@media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3) {
+  .header .support .icon.decrease {
+    background-image: url('./decrease_1@3x.png');
+  }
+  
+  .header .support .icon.discount {
+    background-image: url('./discount_1@3x.png');
+  }
+  
+  .header .support .icon.guarantee {
+    background-image: url('./guarantee_1@3x.png');
+  }
+  
+  .header .support .icon.invoice {
+    background-image: url('./invoice_1@3x.png');
+  }
+
+  .header .support .icon.special {
+    background-image: url('./special_1@3x.png');
+  }
+}
+
+.header .support-count {
+  position: absolute;
+  padding: 0 8px;
+  height: 24px;
+  right: 12px;
+  bottom: 16px;
+  line-height: 24px;
+  border-radius: 14px;
+  background-color: rgba(0, 0, 0, .2);
+  text-align: center;
+}
+
+
+.header .support-count .count {
+  font-size: 10px;
+}
+
+.header .icon-keyboard_arrow_right {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 10px;
+  line-height: 24px;
+  margin-left: 2px;
+}
